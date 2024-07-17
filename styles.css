@@ -1,0 +1,201 @@
+.Heroes {
+    background-color: #beefff;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.radley-regular {
+    font-family: "Radley", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #9b4819;
+}
+ 
+.radley-regular-italic {
+    font-family: "Radley", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#logo {
+    font-family:;
+    color: white;
+    background-color:#9b4819;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 30px;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 60%;
+}
+
+
+h1 {
+    font-size: 86.2px;
+    margin-top: 120px;
+}
+
+#Rad {
+    font-size: 26px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.About {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+}
+
+
+.profile {
+    height: 150px;
+    border-radius: 50%;
+    
+}
+
+#About 
+    {
+        text-align: center;
+        
+    }
+
+.skills {
+    display: flex;
+    background-color: #beefff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.flex {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h2{
+    font-family: "Radley", serif;
+    color: #9b4819;
+}
+p {
+    font-family: "Radley", serif;
+    color: #9b4819;
+}
+.grid {
+    display: grid;
+    width: 700px;
+    height: 100vh;
+    grid: 350px 350px /350px 350px;
+    gap: 20px;
+}
+
+.box-1 {
+    margin-left: 60px
+    
+}
+.box-2 {
+    text-align: left;
+    width: 300px;
+    padding-left: 5px
+}
+.box-3{
+    
+    order: 1;
+}
+
+.box-4{
+    text-align: right;
+    padding-left: 5px;
+}
+
+.button {
+    margin: 20px;
+    font-size: x-large;
+    background-color: #085ee0e3;
+    padding: 10px;
+    border-radius: 12px;
+    color: white;
+}
+.footer {
+    background-color: #beefff;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 60%;
+}
+.copyright {
+    text-align: center;
+
+}
+h3 {
+    font-family: "Radley", serif;
+    color: font-family: "Radley", serif;
+    color: #9b4819;;
+}
+a {
+    color: white;
+}
+ 
+@media (max-width: 768px) {
+    .grid{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        flex-basis: 300px;
+        text-align: center;
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex: 1;
+    }
+    .box-3 {
+     order: 0;
+     height: 150px;
+    }
+    .box-2 {
+        text-align: center;
+        width: 25rem;
+             
+        }
+        .box-4{
+            text-align: center;
+            padding-left: 0px;
+            width: 25rem;
+        }
+        .box-1 {
+            margin-left: 0px}
+    .contact   {
+        width: 400p;
+    }    
+
+}
